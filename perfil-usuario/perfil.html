@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfil do Usuário</title>
+
+  <!--Bootstrap 5 (estrutura de grid, container, row, col e card) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSSS (cores, fontes, espaçamentos, sombras e responsividade) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!--  Tailwind: cor de fundo e espaçamento interno -->
+<body class="bg-gray-100 p-4">
+
+  <!--  Bootstrap: estrutura principal com container, row e col -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <!--  Bootstrap: card /  Tailwind: borda arredondada, sombra, padding, cor de fundo -->
+        <div class="card rounded-2xl shadow-lg p-4 bg-white">
+
+          <!--  Tailwind: centralização de texto -->
+          <div class="text-center">
+
+            <!-- Tailwind: borda circular na imagem, margem inferior, centralização -->
+            <img src="avatar.png" alt="Foto de perfil" class="rounded-full mx-auto mb-4">
+
+            <!-- Tailwind: tamanhos de fonte, peso, cor -->
+            <h2 class="text-2xl font-bold text-blue-700">Danillo Carvalho</h2>
+            <h3 class="text-gray-500 text-lg"> Desenvolvedor Front-end</h3>
+            <p class="text-gray-600 mt-2">Apaixonado por Tecnologia e Design Responsivo.</p>
+          </div>
+
+          <!--  Tailwind: espaçamento, tamanho de fonte  -->
+          <ul class="mt-4 text-sm text-gray-800">
+            <li><strong>Email:</strong> danillowork@gmail.com</li>
+            <li><strong>Telefone:</strong> (61) 999301131</li>
+            <li><strong>Localização:</strong> Brasília, DF</li>
+          </ul>
+
+          <!--  Tailwind: margem superior, centralização / CSS externo: estilo do botão -->
+          <div class="mt-4 text-center">
+            <button class="custom-button">Entrar em contato</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

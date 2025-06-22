@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* ✅ Estilo personalizado para o botão (inspirado no Tailwind) */
+.custom-button {
+  background-color: #3b82f6; 
+  color: white;              
+  font-weight: 600;         
+  padding: 0.5rem 1.5rem;    
+  border-radius: 100px;    
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  transition: all 0.3s ease-in-out;    
+}
+
+/* ✅ Efeito ao passar o mouse no botão */
+.custom-button:hover {
+  background-color: #19346d; 
+}
+
+/* ✅ Imagem de perfil arredondada com tamanho fixo */
+div > img {
+  width: 100px;   
+  height: 100px;  
+  
+}
+
